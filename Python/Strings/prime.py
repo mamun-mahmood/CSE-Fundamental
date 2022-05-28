@@ -1,0 +1,7 @@
+A=float(input())
+format(A,'.2f')
+B=float(input())
+format(A,'.2f')
+med=((A * 3.5) + (B * 7.5)) / (3.5 + 7.5)
+format(med,'.2f')
+print(med)
