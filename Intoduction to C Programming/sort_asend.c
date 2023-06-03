@@ -3,8 +3,7 @@ int main()
 {
     int size_of_array;
     scanf("%d", &size_of_array);
-    int arr[size_of_array], num;
-    scanf("%d", &num);
+    int arr[size_of_array];
     for (int i = 0; i < size_of_array; i++)
     {
         scanf("%d", &arr[i]);
@@ -13,11 +12,16 @@ int main()
     {
         for (int j = i + 1; j < size_of_array; j++)
         {
-            if (num == i + j)
+            if (arr[i] > arr[j])
             {
-                printf("%d+%d=%d\n", i, j, num);
-                // break;
+                int hold_j_value = arr[i];
+                arr[i] = arr[j];
+                arr[j] = hold_j_value;
             }
         }
+    }
+    for (int i = 0; i < size_of_array; i++)
+    {
+        printf("%d ", arr[i]);
     }
 }
