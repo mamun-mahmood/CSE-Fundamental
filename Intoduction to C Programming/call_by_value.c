@@ -15,4 +15,6 @@ int main()
     int a = 10, b = 20;
     // calling sum function with a and b values
     sum(a, b);
+    // value of a and b doesnt change after sum function call
+    printf("\n%d %d", a, b);
 }
