@@ -1,9 +1,9 @@
 #include <stdio.h>
-void recursion_count(int count)
+void recursion_count(long int count)
 {
-    if (count >= 10)
+    if (count >= 100000)
         return;
-    printf("%d Recursing\n", count);
+    printf("%ld Recursing\n", count);
     // function will call 100 times in recursive way
     recursion_count(count + 1);
 }

@@ -1,9 +1,5 @@
-1 Recursing
-2 Recursing
-3 Recursing
-4 Recursing
-5 Recursing
-6 Recursing
-7 Recursing
-8 Recursing
-9 Recursing
+50
+40
+30
+20
+10
